@@ -1,4 +1,4 @@
-package com.airhacks;
+package $package;eu.jmsanchez
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

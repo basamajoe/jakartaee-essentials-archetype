@@ -5,6 +5,10 @@
     <artifactId>${artifactId}</artifactId>
     <version>${version}</version>
     <packaging>war</packaging>
+
+    <name>${artifactId}</name>
+    <url>https://www.jmsanchez.eu</url>
+
     <dependencies>
         <dependency>
             <groupId>jakarta.platform</groupId>
@@ -19,13 +23,22 @@
             <type>pom</type>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
+
     <build>
         <finalName>${artifactId}</finalName>
     </build>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <failOnMissingWebXml>false</failOnMissingWebXml>
     </properties>
+
 </project>
