@@ -6,7 +6,7 @@
 
     <groupId>eu.jmsanchez</groupId>
     <artifactId>jakartaee-essentials-archetype</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>maven-archetype</packaging>
 
     <name>jakartaee-essentials-archetype</name>
